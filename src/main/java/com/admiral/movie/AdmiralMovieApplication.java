@@ -1,4 +1,4 @@
-package com.admiral.movie.AdmiralMovie;
+package com.admiral.movie;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
