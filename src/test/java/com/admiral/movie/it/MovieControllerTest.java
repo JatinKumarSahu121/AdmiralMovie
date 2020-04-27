@@ -110,7 +110,7 @@ public class MovieControllerTest {
         Mockito.when(movieService.getOneMovie(ArgumentMatchers.any(UUID.class))).thenReturn(null);
         mockMvc.perform(get("/v1/movie/"+UUID.randomUUID()))
                 .andDo(MockMvcResultHandlers.print())
-                .andExpect(status().is(204));
+                .andExpect(status().is(400));
     }
 
     @Test
